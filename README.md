@@ -1,6 +1,6 @@
-# Finite Difference Heat Equation Solver
+# Finite Difference Thermal Diffusion Solver
 
-Explicit finite difference solvers for the **1D** and **2D heat equation**, with live animated plots of the temperature distribution. Written in Python with NumPy and Matplotlib.
+Explicit finite difference solvers for the **1D** and **2D thermal diffusion equation**, with live animated plots of the temperature distribution. Written in Python with NumPy and Matplotlib.
 
 ## Contents
 
@@ -26,9 +26,9 @@ The scripts simulate heat conduction through a thin plate (1D: a rod or strip, 2
 
 ## Theory
 
-### The heat equation
+### The thermal diffusion equation
 
-Heat conduction in a homogeneous material with no internal heat sources is described by the heat (diffusion) equation. In one dimension:
+Heat conduction in a homogeneous material with no internal heat sources is described by the thermal diffusion equation. In one dimension:
 
 $$
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
